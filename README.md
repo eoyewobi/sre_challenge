@@ -19,7 +19,7 @@ curl 0.0.0.0:<port>/service-health
 ```
 This returns the service along with ips of the servers
 
-Once the server is operational, you can run the following commands using the main.py file and stating the port using port flag --port
+Once the server is operational, you can run the following commands using the main.py file and stating the port using port flag
 
 ```commandline
 get-status
