@@ -18,3 +18,13 @@ and the following for service health
 curl 0.0.0.0:<port>/service-health
 ```
 This returns the service along with ips of the servers
+
+Once the server is operational, you can run the following commands using the main.py file and stating the port using port flag --port
+
+```commandline
+get-status
+unhealthy-status
+current-status
+
+e.g. python main.py get-status --port 80 
+```
